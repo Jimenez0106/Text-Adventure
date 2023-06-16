@@ -1,1 +1,2 @@
 # Text-Adventure
+This Python program is a choose-your-own-adventure text game! The player can type what action they would like to do. The program has a list of keywords it is looking for in an user's input. Each keyword corresponds to an action. When it finds a keyword, it will perform the action associated with the word. If the user misspells a word, the spellchecker will fix their mistake. For the spellchecker, it reads in a file with a wordlist generated from the Brown corpus. This is to save time from computing it each time the game is run.
